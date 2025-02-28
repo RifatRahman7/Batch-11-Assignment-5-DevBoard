@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevBoard</title>
+    <!-- tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- style section -->
+    <style>
+        .poppins {
+            font-family: "Poppins", serif;
+        }
+    </style>
+
 </head>
 
-<body>
-
-</body>
+<body class="poppins bg-[#F4F7FF] p-6">
+    <!-- Nav bar -->
+    <header class="w-full max-w-xxl">
+        <nav class="flex justify-between large:max-w-[1536px] bg-white rounded-2xl">
+            <div class="flex p-5">
+                <img class="ml-2" src="./assets/logo.png" alt="logo">
+            <div class="text-[36px]">
+                <h1>Dev<span class="font-bold  ">Board</span></h1>
+            </div>
+            </div>
+            <div class="flex gap-[60px]">
+                <div class="flex gap-2 bg-[#F4F7FF] rounded-[40px] p-5">  
+                    <a href="">
+                        <img class="max-w-[32px] max-h-[32px] mt-2" src="./assets/checkbox.png" alt="">
+                    </a>
+                <h4 class="font-bold text-[32px]">23</h4>
+                </div>
+                <div class="p-5">
+                    <a href="">
+                        <img class="max-w-[40px] max-h-[40px " src="./assets/theme-btn.png" alt="theme btn">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- left section -->
+    <section>
+       
+    </section>
+</body >
 
 </html>
