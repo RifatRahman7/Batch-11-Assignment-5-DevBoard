@@ -43,17 +43,61 @@
                 <h4 class="font-bold text-[32px]">23</h4>
                 </div>
                 <div class="p-5">
-                    <a href="">
-                        <img class="max-w-[40px] max-h-[40px " src="./assets/theme-btn.png" alt="theme btn">
-                    </a>
+                    <button><img class="max-w-[40px] max-h-[40px " src="./assets/theme-btn.png" alt="theme btn"></button>
                 </div>
             </div>
         </nav>
     </header>
+    <br>
     <!-- left section -->
-    <section>
-       
+ <section class="flex gap-2">
+    <section class="flex bg-white rounded-xl p-5 justify-between max-w-[1146px] max-h-[920px] gap-5">
+        <!-- Task Assign box div -->
+       <div class="flex gap-6 bg-[#F4F7FF] rounded-[15px] p-5 max-w-[263px] max-h-[128px]">
+       <div class="flex bg-white p-5 rounded-4xl">
+        <button><img src="./assets/checkbox.png" alt=""></button>
+       </div>
+       <div>
+        <h1 class="text-[16px] font-semibold">Task Assigned</h1>
+        <h1 class="text-[32px] font-bold">05</h1>
+       </div>
+       </div>
+       <!-- Discover box div -->
+        <div class="flex items-center p-5 max-w-[524px] max-h-[128px] rounded-xl" style="background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%,rgb(108, 127, 250) 52.66%,rgb(155, 168, 248) 99.733%);">
+            <div>
+                <img src="./assets/board.png" alt="">
+            </div>
+            <div >
+                <h3 class="text-[24px]">Discover Something New Today!</h3>
+            </div>
+        </div>
+        <!-- Date box div -->
+         <div class="bg-[#F4F7FF] flex gap-6 rounded-[15px] p-5 max-w-[263px] max-h-[128px] flex items-center">
+            <div class="bg-white p-5 rounded-4xl">
+                <img src="./assets/calender.png" alt="">
+            </div>
+            <div>
+                <span class="text-[22px] font-medium">Wed ,</span><br>
+                <span class="text-[22px] font-bold">Jul 28 2025</span>
+            </div>
+         </div>
     </section>
+    <!-- Right Section or Activity Log -->
+     <section class="bg-white max-w-[366px] max-h-[918px] rounded-2xl">
+         <div class="flex items-center gap-2">
+            <div>
+                <img src="./assets/activity.png" alt="">
+             </div>
+             <div>
+                <h2 class="text-[20px] font-medium">Activity Log</h2>
+             </div>
+         </div>
+         <div>
+            <button class="btn bg-[#3752FD] text-white hover:text-black hover:bg-white">Clear History</button>
+         </div>
+
+     </section>
+ </section>
 </body >
 
 </html>
