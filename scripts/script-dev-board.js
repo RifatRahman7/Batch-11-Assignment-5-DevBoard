@@ -43,7 +43,7 @@ if (completeButton) {
         navCount.innerText = convertedNavCount;
         f1 = true;
         if (f1 && f2 && f3 && f4 && f5 && f6) {
-            alert('Congrats!! You have completed all the task successfully!!');
+            alert('Congrats! You have completed all the task successfully!');
         }
 
         const cardName = completeButton.closest('.task-card')
